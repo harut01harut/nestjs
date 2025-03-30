@@ -1,0 +1,6 @@
+DELETE http://localhost:3000/tags/2
+Content-Type: application/json
+
+DELETE http://localhost:3000/tags/soft/3
+Content-Type: application/json
+

@@ -1,0 +1,14 @@
+POST http://localhost:3000/posts/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjYsImVtYWlsIjoiam9objhAZG9lLmNvbSIsImlhdCI6MTc0MjgzNzI5MCwiZXhwIjoxNzQyODQwODkwLCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.037-uRElou3oDxyFXKti7x3-8HZj_kDw1RIVDcjKZ7E
+
+{
+  "title": "What's new with NestJS",
+  "postType": "post",
+  "slug": "new-with-nest-js-124",
+  "status": "draft",
+  "content": "post-content",
+  "schema": "{\r\n    \"@context\": \"https:\/\/schema.org\",\r\n    \"@type\": \"Person\"\r\n  }",
+  "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+  "author": "67e92e2ae9b26c6aa99ff610"
+}

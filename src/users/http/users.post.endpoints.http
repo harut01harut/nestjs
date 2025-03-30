@@ -1,0 +1,34 @@
+POST http://localhost:3000/users-mongo
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johawdn@doe.com",
+    "password": "Password123#"
+}
+
+POST http://localhost:3000/users/many
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjYsImVtYWlsIjoiam9objhAZG9lLmNvbSIsImlhdCI6MTc0MjgyNjM0MCwiZXhwIjoxNzQyODI5OTQwLCJhdWQiOiJsb2NhbGhvc3Q6MzAwMCIsImlzcyI6ImxvY2FsaG9zdDozMDAwIn0.3DsjaT_dT8rp-b8vLY-I2_jDtklz1A27lP0oilcQsA8"
+{
+"manyUsers": [
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "password": "Password123#"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@do2e.com",
+        "password": "Password123#"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@do3e.com",
+        "password": "Password123#"
+    }
+]
+}
